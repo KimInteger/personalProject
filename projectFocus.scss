@@ -4,20 +4,6 @@
   box-sizing: border-box;
 }
 
-#root {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 2vh 0;
-  width: 90vw;
-  height: 90vh;
-  border: 3px solid black;
-  flex-wrap: nowrap;
-  overflow-x: hidden;
-  column-gap: 100px;
-}
-
 #leftMove {
   position: absolute;
   top: 37%;
