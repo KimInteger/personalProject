@@ -35,12 +35,6 @@ for(let i = 0; i < 3; i++) {
 function leftBtn(){
   let div = document.getElementsByClassName('stage');
   if(root.style.justifyContent === 'flex-start'){
-    root.style.justifyContent = 'center';
-    root.style.columnGap = '100px';
-    for(let i = 0; i < div.length; i++){
-      div[i].style.margin = '';
-    }
-  } else if(root.style.justifyContent === 'center'){
     root.style.justifyContent = 'flex-end';
     root.style.columnGap = '';
     for(let i = 0; i < div.length; i ++ ){
@@ -48,7 +42,7 @@ function leftBtn(){
       div[i].style.marginLeft = '';
     }
     div[2].style.marginRight = '10vw';
-  } else if(root.style.justifyContent === 'flex-end'){
+  } else if(root.style.justifyContent === 'center'){
     root.style.justifyContent = 'flex-start';
     root.style.columnGap = '';
     for(let i = 0; i < div.length; i ++){
@@ -56,6 +50,12 @@ function leftBtn(){
       div[i].style.marginLeft = '5vw';
     }
     div[0].style.marginLeft = '10vw';
+  } else if(root.style.justifyContent === 'flex-end'){
+    root.style.justifyContent = 'center';
+    root.style.columnGap = '100px';
+    for(let i = 0; i < div.length; i++){
+      div[i].style.margin = '';
+    }
   } else {
     console.error('error');
   }
