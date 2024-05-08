@@ -14,9 +14,9 @@
   height: 90vh;
   border: 3px solid black;
   flex-wrap: nowrap;
-  -moz-column-gap: 5vh;
-       column-gap: 5vh;
   overflow-x: hidden;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
 }
 
 #leftMove {
