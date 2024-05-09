@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#leftMove {
+  position: absolute;
+  top: 37%;
+  left: 10vw;
+  flex-shrink: 0;
+  width: 10vw;
+  height: 10vw;
+  font-size: 5rem;
+  background-color: transparent;
+  border: none;
+  z-index: 4;
+  cursor: pointer;
+}
+
+#rightMove {
+  position: absolute;
+  top: 37%;
+  left: 80vw;
+  flex-shrink: 0;
+  width: 10vw;
+  height: 10vw;
+  font-size: 5rem;
+  background-color: transparent;
+  border: none;
+  z-index: 4;
+  cursor: pointer;
+}
+
+#partition {
+  display: flex;
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  z-index: 0;
+  background-color: rgba(27, 27, 27, 0.5);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
