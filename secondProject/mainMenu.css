@@ -35,9 +35,22 @@
   gap: 15px;
 }
 #background > div:nth-child(2) > button {
-  background-color: transparent;
   width: 100px;
   height: 60px;
   font-size: 1rem;
+  background-color: transparent;
+  color: black;
   cursor: pointer;
+}
+#background > div:nth-child(2) > a {
+  width: 100px;
+  height: 60px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=mainMenu.css.map */

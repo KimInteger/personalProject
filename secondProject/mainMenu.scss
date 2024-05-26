@@ -33,12 +33,25 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    > button {
-    background-color: transparent;  
-    width: 100px;
-    height: 60px;
-    font-size: 1rem;
-    cursor: pointer;
+    >button {
+      width: 100px;
+      height: 60px;
+      font-size: 1rem;
+      background-color: transparent;
+      color: black;
+      cursor: pointer;
+    }
+    > a {
+      width: 100px;
+      height: 60px;
+      font-size: 1rem;
+      background-color: transparent;
+      color: black;
+      border: 2px solid black;
+      display: flex;
+      text-decoration: none;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
