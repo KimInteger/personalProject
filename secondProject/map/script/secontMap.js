@@ -16,7 +16,7 @@ first.appendChild(player);
 let nextStage
 
 function openWindow(){
-  nextStage = window.open("../map/thirdMap.html");
+  nextStage = window.open("../map/thirdMap.html",'_self');
 }
 
 document.addEventListener('keydown', (e)=>{
