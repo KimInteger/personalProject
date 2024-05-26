@@ -19,6 +19,11 @@
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: "a b c" "d e f" "g h i" "j k l";
 }
+#root > div:nth-child(1) > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #root > div:nth-child(1) > div:nth-child(1) {
   grid-area: k;
   border-width: 1px 1px 1px 1px;

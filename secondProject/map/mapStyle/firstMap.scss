@@ -21,6 +21,11 @@
     "d e f"
     "g h i"
     "j k l";
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     > div:nth-child(1){
       grid-area: l;
       border-width: 1px 1px 1px 0px;
